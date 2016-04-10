@@ -101,12 +101,12 @@
 			[self.inputLines removeObjectAtIndex:0];
 		}
 		
-		NSInteger dataCount = (self.linesPerGroup > 0) ? [self.inputLines count] / self.linesPerGroup : [self.inputLines count];
+		//NSInteger dataCount = (self.linesPerGroup > 0) ? [self.inputLines count] / self.linesPerGroup : [self.inputLines count];
 		
 		self.outputLines = [NSMutableArray arrayWithCapacity:self.numberOfTestCases];
 		
 		for (NSUInteger lineNr = 1; lineNr <= self.numberOfTestCases; lineNr++) {
-			NSString *prefix = [NSString stringWithFormat:@"%@%i: ", [self prefix], lineNr];
+			NSString *prefix = [NSString stringWithFormat:@"%@%lu: ", [self prefix], (unsigned long)lineNr];
 			[self.outputLines addObject:prefix];
 		}
 	}
@@ -136,7 +136,7 @@
 		self.outputLines = [NSMutableArray arrayWithCapacity:dataCount];
 		
 		for (NSUInteger lineNr = 1; lineNr <= [self numberOfTestCases]; lineNr++) {
-			NSString *prefix = [NSString stringWithFormat:@"%@%i: ", [self prefix], lineNr];
+			NSString *prefix = [NSString stringWithFormat:@"%@%lu: ", [self prefix], (unsigned long)lineNr];
 			[self.outputLines addObject:prefix];
 		}
 	}
