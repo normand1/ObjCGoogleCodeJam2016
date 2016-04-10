@@ -7,7 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4A3D6DA61CB8B47E0014EBB9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3D6DA51CB8B47E0014EBB9 /* main.m */; };
+		4A3D6DAD1CB8B6D60014EBB9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3D6DAC1CB8B6D60014EBB9 /* main.m */; };
+		4A3D6DB71CB8B80E0014EBB9 /* File.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3D6DB21CB8B80E0014EBB9 /* File.m */; };
+		4A3D6DB81CB8B80E0014EBB9 /* FileReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3D6DB41CB8B80E0014EBB9 /* FileReader.m */; };
+		4A3D6DB91CB8B80E0014EBB9 /* FileWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3D6DB61CB8B80E0014EBB9 /* FileWriter.m */; };
+		4A3D6DBE1CB8B8160014EBB9 /* QualRound.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3D6DBB1CB8B8160014EBB9 /* QualRound.m */; };
+		4A3D6DBF1CB8B8160014EBB9 /* TestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3D6DBD1CB8B8160014EBB9 /* TestCase.m */; };
+		4A3D6DC51CB8CEBB0014EBB9 /* CountingSheep.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3D6DC41CB8CEBB0014EBB9 /* CountingSheep.m */; };
+		4A3D6DC91CB8D1370014EBB9 /* HashMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3D6DC81CB8D1370014EBB9 /* HashMap.m */; };
+		4A3D6DCC1CB959730014EBB9 /* RevengeOfThePancakes.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3D6DCB1CB959730014EBB9 /* RevengeOfThePancakes.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +32,24 @@
 
 /* Begin PBXFileReference section */
 		4A3D6DA21CB8B47E0014EBB9 /* codeJam2016 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = codeJam2016; sourceTree = BUILT_PRODUCTS_DIR; };
-		4A3D6DA51CB8B47E0014EBB9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4A3D6DAC1CB8B6D60014EBB9 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4A3D6DB11CB8B80E0014EBB9 /* File.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = File.h; sourceTree = "<group>"; };
+		4A3D6DB21CB8B80E0014EBB9 /* File.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = File.m; sourceTree = "<group>"; };
+		4A3D6DB31CB8B80E0014EBB9 /* FileReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileReader.h; sourceTree = "<group>"; };
+		4A3D6DB41CB8B80E0014EBB9 /* FileReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileReader.m; sourceTree = "<group>"; };
+		4A3D6DB51CB8B80E0014EBB9 /* FileWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileWriter.h; sourceTree = "<group>"; };
+		4A3D6DB61CB8B80E0014EBB9 /* FileWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileWriter.m; sourceTree = "<group>"; };
+		4A3D6DBA1CB8B8160014EBB9 /* QualRound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QualRound.h; sourceTree = "<group>"; };
+		4A3D6DBB1CB8B8160014EBB9 /* QualRound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QualRound.m; sourceTree = "<group>"; };
+		4A3D6DBC1CB8B8160014EBB9 /* TestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestCase.h; sourceTree = "<group>"; };
+		4A3D6DBD1CB8B8160014EBB9 /* TestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCase.m; sourceTree = "<group>"; };
+		4A3D6DC31CB8B8AA0014EBB9 /* CoderChallenge-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CoderChallenge-Prefix.pch"; sourceTree = "<group>"; };
+		4A3D6DC41CB8CEBB0014EBB9 /* CountingSheep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountingSheep.m; sourceTree = "<group>"; };
+		4A3D6DC61CB8CECE0014EBB9 /* CountingSheep.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CountingSheep.h; sourceTree = "<group>"; };
+		4A3D6DC71CB8D1370014EBB9 /* HashMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HashMap.h; sourceTree = "<group>"; };
+		4A3D6DC81CB8D1370014EBB9 /* HashMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HashMap.m; sourceTree = "<group>"; };
+		4A3D6DCA1CB959730014EBB9 /* RevengeOfThePancakes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RevengeOfThePancakes.h; sourceTree = "<group>"; };
+		4A3D6DCB1CB959730014EBB9 /* RevengeOfThePancakes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RevengeOfThePancakes.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +82,24 @@
 		4A3D6DA41CB8B47E0014EBB9 /* codeJam2016 */ = {
 			isa = PBXGroup;
 			children = (
-				4A3D6DA51CB8B47E0014EBB9 /* main.m */,
+				4A3D6DB11CB8B80E0014EBB9 /* File.h */,
+				4A3D6DB21CB8B80E0014EBB9 /* File.m */,
+				4A3D6DB31CB8B80E0014EBB9 /* FileReader.h */,
+				4A3D6DB41CB8B80E0014EBB9 /* FileReader.m */,
+				4A3D6DB51CB8B80E0014EBB9 /* FileWriter.h */,
+				4A3D6DB61CB8B80E0014EBB9 /* FileWriter.m */,
+				4A3D6DBA1CB8B8160014EBB9 /* QualRound.h */,
+				4A3D6DBB1CB8B8160014EBB9 /* QualRound.m */,
+				4A3D6DBC1CB8B8160014EBB9 /* TestCase.h */,
+				4A3D6DBD1CB8B8160014EBB9 /* TestCase.m */,
+				4A3D6DC41CB8CEBB0014EBB9 /* CountingSheep.m */,
+				4A3D6DC61CB8CECE0014EBB9 /* CountingSheep.h */,
+				4A3D6DC71CB8D1370014EBB9 /* HashMap.h */,
+				4A3D6DC81CB8D1370014EBB9 /* HashMap.m */,
+				4A3D6DC31CB8B8AA0014EBB9 /* CoderChallenge-Prefix.pch */,
+				4A3D6DAC1CB8B6D60014EBB9 /* main.m */,
+				4A3D6DCA1CB959730014EBB9 /* RevengeOfThePancakes.h */,
+				4A3D6DCB1CB959730014EBB9 /* RevengeOfThePancakes.m */,
 			);
 			path = codeJam2016;
 			sourceTree = "<group>";
@@ -118,7 +160,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A3D6DA61CB8B47E0014EBB9 /* main.m in Sources */,
+				4A3D6DB91CB8B80E0014EBB9 /* FileWriter.m in Sources */,
+				4A3D6DBF1CB8B8160014EBB9 /* TestCase.m in Sources */,
+				4A3D6DAD1CB8B6D60014EBB9 /* main.m in Sources */,
+				4A3D6DB71CB8B80E0014EBB9 /* File.m in Sources */,
+				4A3D6DCC1CB959730014EBB9 /* RevengeOfThePancakes.m in Sources */,
+				4A3D6DBE1CB8B8160014EBB9 /* QualRound.m in Sources */,
+				4A3D6DC91CB8D1370014EBB9 /* HashMap.m in Sources */,
+				4A3D6DC51CB8CEBB0014EBB9 /* CountingSheep.m in Sources */,
+				4A3D6DB81CB8B80E0014EBB9 /* FileReader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
